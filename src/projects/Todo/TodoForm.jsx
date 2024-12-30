@@ -23,6 +23,8 @@ export const TodoForm = ({ onAddTodo }) => {
             autoComplete="off"
             value={inputValue.content}
             onChange={(event) => handleInputChange(event.target.value)}
+            placeholder="Enter your content"
+            required
           />
         </div>
         <div>
